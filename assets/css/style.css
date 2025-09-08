@@ -19719,3 +19719,12 @@ h1, h2, h3, .headline {
 p, span, li, body {
   font-family: var(--font-secondary);
 }
+
+.biographie{
+    margin-top: 250px;
+}
+@media (max-width: 768px) {
+    .biographie {
+        margin-top: -10px;
+    }
+}

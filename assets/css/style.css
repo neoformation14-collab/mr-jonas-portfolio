@@ -94,8 +94,10 @@
   --s-extra-bold: 800;
   --s-black: 900;
   --transition: 0.4s;
-  --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Montserrat", sans-serif;
+
+  --font-primary: "Playfair Display", serif; /* italic can be set in CSS */
+  --font-secondary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   --font-size-b1: 18px;
   --font-size-b2: 22px;
   --font-size-b3: 14px;
@@ -19705,3 +19707,15 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-white) !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+
+/* update */
+h1, h2, h3, .headline {
+  font-family: var(--font-primary);
+  font-style: italic; 
+}
+
+p, span, li, body {
+  font-family: var(--font-secondary);
+}

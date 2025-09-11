@@ -1,0 +1,186 @@
+   <!-- Start Service Area -->
+      <div
+        class="rn-service-area rn-section-gap section-separator"
+        id="business"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="section-title text-left"
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-delay="100"
+                data-aos-once="true"
+              >
+                <span class="subtitle">Entrepreneur & Philantrope</span>
+                <h2 class="title" style="letter-spacing:-1px;font-style: normal">BUSINESS & INITIATIVES</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row row--25 mt_md--10 mt_sm--10">
+            <!-- Start Single Service -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="100"
+              data-aos-once="true"
+              class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+            >
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="zap"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title"><a href="#">ZENER</a></h4>
+                    <p class="description">
+                      est un groupe de sociétés d’énergies. Depuis plus d’une décennie, 
+                      le groupe apporte des solutions énergétiques à des milliers de foyers et 
+                      aux industries et se positionne comme l’un des acteurs majeurs du secteur de gaz et 
+                      de l’énergie, proposant des offres spécifiques aux besoins d’un marché sans cesse en 
+                      mutation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Service -->
+
+            <!-- Start Single Service -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="300"
+              data-aos-once="true"
+              class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+            >
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="truck"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title"><a href="#">DIWA INDUSTRIAL</a></h4>
+                    <p class="description">
+                      Premier concessionnaire automobile authentiquement togolais,
+                      DIWA International est partenaire des marques ISUZU, CHEVROLET et 
+                      récemment MG -Morris Garage dans la concession automobile, les marques ENEGEN, 
+                      PETRONAS et TEXACO (Havoline) pour les solutions de lubrifications automobiles, 
+                      industrielles et marines. La marque CONTINENTAL pour les pneus et NUMAX suprême pour 
+                      les batteries. Le partenariat avec GM South Africa, MG et ISUZU fait de Diwa International 
+                      le distributeur exclusif des véhicules.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Service -->
+
+            <!-- Start Single Service -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="500"
+              data-aos-once="true"
+              class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+            >
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="layers"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title"><a href="#">Diwa International</a></h4>
+                    <p class="description">
+                     est une société à responsabilité limitée (S.A.R.L) régie par le droit OHADA portant 
+                     sur les sociétés commerciales, industrielles, et la réglementation nationale du secteur 
+                     de l’industrie. Elle intervient dans : l’agro-industrie; la fabrication de produits de 
+                     bien-être et de beauté; la production d’équipements, outillages agricoles et de BTP; 
+                     le commerce général; la restauration; l’import-export; la représentation commerciale et industrielle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Service -->
+
+            <!-- Start Single Service -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="100"
+              data-aos-once="true"
+              class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+            >
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="trending-up"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title"><a href="#">DABA</a></h4>
+                    <p class="description">
+                      est une entreprise agro-alimentaire spécialisée dans la production et 
+                      la transformation des produits carnés. Notre processus va du pré à l'assiette. 
+                      DABA est un système intégré qui va de l'élevage, à l'abattage, à la découpe et 
+                      à la transformation de la viande de volaille, bovin, ovin et porcin.
+                      Nous sommes dotés d'un abattoir moderne et d'un atelier de transformation 
+                      géré par du personnel encadrant hautement qualifié et très expérimenté.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Service -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="100"
+              data-aos-once="true"
+              class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+            >
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="book-open"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title"><a href="#">KAPI CONSULT</a></h4>
+                    Cabinet d'études et de conseil en management spécialisé dans le développement 
+                    de projets et la compétitivité, notamment dans les infrastructures, le transport, 
+                    l'énergie, l'ingénierie financière et les partenariats publics privé (PPP).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Start Single Service -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="300"
+              data-aos-once="true"
+              class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+            >
+              <div class="rn-service">
+                <div class="inner">
+                  <div class="icon">
+                    <i data-feather="heart"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="title"><a href="#">BONICI Africa</a></h4>
+                    <p class="description">
+                       est une chaîne de restaurants, une franchise de la marque internationale Bonici basée en France.
+                        Nous proposons des pizzas, des burgers et des plats locaux offerts dans un cadre convivial.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Service -->
+          </div>
+        </div>
+      </div>
+      <!-- End Service Area  -->

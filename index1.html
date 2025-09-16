@@ -142,40 +142,89 @@
 
     <main class="main-page-wrapper">
      <!-- Start Slider Area -->
-      <div id="home" class="rn-slider-area">
-        <div class="slide slider-style-1">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-10">
-                <div class="content">
-                  <div class="inner">
-                    <h1 class="title no-wrap">
-                      Jonas Aklesso <span>DAOU</span><br />
-                      <span class="header-caption" id="page-top">
-                        <span class="cd-headline clip is-full-width">
-                          <span style="font-family:Playfair Display">un </span>
-                          <span class="cd-words-wrapper">
-                            <b class="is-visible" style="font-family:Playfair Display; letter-spacing:-1px">Entrepreneur.</b>
-                            <b class="is-hidden" style="font-family:Playfair Display; letter-spacing:-1px">Philanthrope.</b>
-                            <b class="is-hidden" style="font-family:Playfair Display; letter-spacing:-1px">Auteur.</b>
-                          </span>
-                        </span>
-                      </span>
-                    </h1>
-                  </div>
-                  <div class="row biographie justify-content-center">
-                    <div class="col-auto">
-                      <div class="social-share-inner-left">
-                        <a class="rn-btn btn-large" href="#biographie">Lire la Biographie</a>
-                      </div>
+    <!-- Start Slider Area -->
+<div id="home" class="rn-slider-area">
+    <div class="container">
+        <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row row--30 align-items-center">
+                        <div class="col-lg-7">
+                            <div class="content">
+                                <div class="inner text-start">
+                                    <h2 class="title">Développons-nous enfin !</h2>
+                                    <p>Un ouvrage percutant qui appelle à surmonter le fatalisme et à embrasser le développement par l'action concrète et la pensée innovante.</p>
+                                    <a class="btn btn-primary" href="https://www.amazon.fr/" target="_blank">Voir sur Amazon</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                            <img src="assets/images/books/book1.png" alt="Développons-nous enfin !" style="width: 100%; max-width: 700px; height: auto;">
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row row--30 align-items-center">
+                        <div class="col-lg-7">
+                            <div class="content">
+                                <div class="inner text-start">
+                                    <h2 class="title">Il était une fois la déséconomie: Un voyage dans le monde 2020 de la COVID-19</h2>
+                                    <p>Une exploration des impacts économiques de la pandémie de COVID-19 et des leçons à en tirer pour construire des systèmes plus résilients.</p>
+                                    <a class="btn btn-primary" href="https://www.amazon.fr/" target="_blank">Voir sur Amazon</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                            <img src="assets/images/books/book2.png" alt="Il était une fois la déséconomie" style="width: 100%; max-width: 700px; height: auto;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="row row--30 align-items-center">
+                        <div class="col-lg-7">
+                            <div class="content">
+                                <div class="inner text-start">
+                                    <h2 class="title">L'autre coupable</h2>
+                                    <p>Un roman captivant qui explore les complexités des relations humaines et les défis de la recherche de vérité dans un monde rempli d'apparences trompeuses.</p>
+                                    <a class="btn btn-primary" href="https://www.amazon.fr/" target="_blank">Voir sur Amazon</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                            <img src="assets/images/books/book3.png" alt="L'autre coupable" style="width: 100%; max-width: 700px; height: auto;">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-          </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#bookCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#bookCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#bookCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
         </div>
-      </div>
+    </div>
+</div>
+<!-- End Slider Area -->
+
       <!-- End Slider Area -->
 
       <!-- Start Biography Area -->

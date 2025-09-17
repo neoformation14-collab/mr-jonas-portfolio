@@ -1,0 +1,15 @@
+/* Global typography overrides */
+p {
+  font-size: var(--font-size-b1) !important;
+  line-height: var(--line-height-b1) !important;
+  margin-bottom: 1em;
+}
+
+.hero__entry-desc p,
+.entry__excerpt p,
+.biographie-section p,
+.s-footer__about p,
+.entry__text p {
+  font-size: var(--font-size-b1) !important;
+  line-height: var(--line-height-b1) !important;
+}

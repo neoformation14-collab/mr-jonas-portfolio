@@ -1,12 +1,27 @@
+:root {
+  --font-family-base: "Playfair Display", "Helvetica Neue", sans-serif;
+}
+
+/* Apply the font family to all elements */
+* {
+  font-family: var(--font-family-base);
+}
+
+html, body {
+  font-family: var(--font-family-base);
+}
+
+h1, h2, h3, h4, h5, h6, .site-title, p, a, span, div, button, input, select, textarea {
+  font-family: var(--font-family-base);
+}
 @charset "UTF-8";
 
 /* Default  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 :root {
   --color-primary:  #438234;
   --color-secondary: #f4f5f6;
-  --color-tertiary: #0d1013;
+  /* ...existing code... */
   --color-gray: #f6f6f6;
   --color-subtitle:  #438234;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
@@ -62,18 +77,18 @@
   --font-primary: "Playfair Display", serif; 
   --font-secondary: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  --font-size-b1: 18px;
-  --font-size-b2: 22px;
-  --font-size-b3: 14px;
+  --font-size-b1: 16px;
+  --font-size-b2: 18px;
+  --font-size-b3: 13px;
   --line-height-b1: 1.50;
   --line-height-b2: 1.6;
   --line-height-b3: 1.7;
-  --h1: 70px;
-  --h2: 60px;
-  --h3: 50px;
-  --h4: 40px;
-  --h5: 30px;
-  --h6: 20px;
+  --h1: 48px;
+  --h2: 40px;
+  --h3: 32px;
+  --h4: 28px;
+  --h5: 24px;
+  --h6: 18px;
 }
 
 * {

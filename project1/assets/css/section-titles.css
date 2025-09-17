@@ -1,0 +1,39 @@
+/* Section Title Styles */
+.section-title {
+    font-family: var(--font-primary);
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+    text-align: left;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    color: #666;
+    text-align: left;
+    max-width: 800px;
+}
+
+/* Remove any center alignment from existing sections */
+.text-center {
+    text-align: left !important;
+}
+
+/* Ensure consistent spacing */
+.section-title-wrapper {
+    margin-bottom: 5rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    .section-title {
+        font-size: 3rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1.6rem;
+    }
+}

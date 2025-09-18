@@ -1,18 +1,30 @@
 :root {
-  --font-family-base: "Playfair Display", "Helvetica Neue", sans-serif;
+  --font-family-titles: "Playfair Display", serif;
+  --font-family-text: "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Apply the font family to all elements */
-* {
-  font-family: var(--font-family-base);
+/* Base font for body text */
+body {
+  font-family: var(--font-family-text);
 }
 
-html, body {
-  font-family: var(--font-family-base);
+/* Titles and headings use Playfair Display */
+h1, h2, h3, h4, h5, h6, 
+.section-title, 
+.site-title,
+.hero__entry-title,
+.text-display-title {
+  font-family: var(--font-family-titles);
 }
 
-h1, h2, h3, h4, h5, h6, .site-title, p, a, span, div, button, input, select, textarea {
-  font-family: var(--font-family-base);
+/* All other text elements use Helvetica Neue */
+p, a, span, div, button, input, select, textarea,
+.subtitle,
+.hero__entry-desc,
+.biography-text,
+.text-content,
+nav.s-header__nav {
+  font-family: var(--font-family-text);
 }
 @charset "UTF-8";
 

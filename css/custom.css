@@ -1,0 +1,20 @@
+/* Custom overrides for mobile logo positioning */
+@media screen and (max-width: 800px) {
+    .s-header {
+        position: relative;
+        top: 0;
+    }
+
+    .s-header__branding {
+        position: absolute;
+        transform: none;
+        left: 0;
+        top: 0;
+        padding: 0;
+    }
+
+    .s-header__branding img {
+        max-width: 180px;
+        height: auto;
+    }
+}
